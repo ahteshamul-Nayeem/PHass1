@@ -1,14 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .header{
     
     height: 300px;
     background-image: url('Hero-bg.png');
-    background-size: cover;
+    width: 1440px;
+    height: 698px;
 
 }
 nav ul{
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin: 0 150px;
+    align-items: center;
+    width: 1140px;
+    height: 151px;
+    padding-left: 0;
+    margin-bottom: 158px;
 
 }
 nav li a{
@@ -20,16 +30,18 @@ nav li a{
 }
 nav li{
     list-style: none;
-    margin: 10px;
+    
     
     
 }
 nav li button{
     background-color: #4E47FF;
     color: #ffffff;
-    border-radius: 9px ;
+    border-radius: 10px ;
     border: solid #4E47FF;
-    padding: 12px 30px;
+    padding: 12px 36px;
+    width: 132px;
+    height: 48px;
     
 }
 /* Font adding */
@@ -45,4 +57,26 @@ nav li button{
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
+}
+.banner-content{
+    margin:  auto;
+    text-align: center;
+    width: 905px;
+    height: 152px;
+    margin-bottom: 37px;
+}
+.banner-head{
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 37px;
+}
+.banner-button{
+    background-color: #4E47FF;
+    color: #ffffff;
+    border-radius: 10px ;
+    border: solid #4E47FF;
+    padding: 12px 36px;
+    width: 174px;
+    height: 48px;
+    
 }
